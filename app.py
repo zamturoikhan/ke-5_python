@@ -1,8 +1,22 @@
-# list of dict
+# for loop
 
-todos = [
-    {"id": 1, "name": "washing car", "is_done": False},
-    {"id": 2, "name": "helping mom", "is_done": True}
+'''
+for i in range(1, 10):
+    print(i)
+'''
+
+'''
+phone = ['xiaomi', 'iphone6', 'sumsang']
+
+for phone in phone:
+    print(phone)
+'''
+
+phone = [
+    {"id": 1, "name": "xiaomi"},
+    {"id": 2, "name": "iphone6"},
+    {"id": 3, "name": "summsang"},
 ]
 
-print(todos[1]['name'])
+for phone in phone:
+   print(phone['name'])
